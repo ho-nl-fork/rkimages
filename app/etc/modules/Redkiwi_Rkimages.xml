@@ -4,9 +4,6 @@
 		<Redkiwi_Rkimages>
 			<active>true</active>
 			<codePool>community</codePool>
-			<depends>
-				<Redkiwi_Rkextbase/>
-			</depends>
 		</Redkiwi_Rkimages>
 	</modules>
 </config>
