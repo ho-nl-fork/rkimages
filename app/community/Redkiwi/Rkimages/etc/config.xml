@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Redkiwi_Rkimages>
+			<version>1.0.0</version>
+		</Redkiwi_Rkimages>
+	</modules>
+   
+	<global>
+		<models>
+			<rkimages>
+				<class>Redkiwi_Rkimages_Model</class>
+			</rkimages>
+		</models>
+		<helpers>
+			<rkimages>
+				<class>Redkiwi_Rkimages_Helper</class>
+			</rkimages>
+		</helpers>
+	</global>
+    
+</config> 
