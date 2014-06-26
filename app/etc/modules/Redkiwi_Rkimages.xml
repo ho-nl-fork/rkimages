@@ -4,6 +4,9 @@
 		<Redkiwi_Rkimages>
 			<active>true</active>
 			<codePool>community</codePool>
+			<depends>
+				<Mage_Catalog/>
+			</depends>
 		</Redkiwi_Rkimages>
 	</modules>
 </config>
