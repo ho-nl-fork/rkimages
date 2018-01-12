@@ -1,0 +1,19 @@
+<?php
+/** @var Mage_Core_Block_Template $this */
+?>
+<table class="form-list">
+    <tr>
+        <td class="scope-label">
+            <button onclick="setLocation('<?= Mage::helper('adminhtml')->getUrl('*/rkimages_cache/cleanImages'); ?>')" type="button" class="scalable">
+                <span>
+                    <span>
+                        <span><?= Mage::helper('rkimages')->__('Flush Rkimages Image Cache'); ?></span>
+                    </span>
+                </span>
+            </button>
+        </td>
+        <td class="scope-label">
+            <?= Mage::helper('rkimages')->__('Rkimages image files.'); ?>
+        </td>
+    </tr>
+</table>

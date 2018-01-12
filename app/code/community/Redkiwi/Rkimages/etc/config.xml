@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Redkiwi_Rkimages>
-			<version>1.0.0</version>
+			<version>1.1.0</version>
 		</Redkiwi_Rkimages>
 	</modules>
    
@@ -18,5 +18,26 @@
 			</rkimages>
 		</helpers>
 	</global>
-    
-</config> 
+
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<Redkiwi_Rkimages after="Mage_Adminhtml">Redkiwi_Rkimages_Adminhtml</Redkiwi_Rkimages>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+
+	<adminhtml>
+		<layout>
+			<updates>
+				<rkimages>
+					<file>rkimages.xml</file>
+				</rkimages>
+			</updates>
+		</layout>
+	</adminhtml>
+</config>

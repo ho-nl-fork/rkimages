@@ -1,3 +1,5 @@
-/app/code/community/Redkiwi/Rkimages /app/code/community/Redkiwi/Rkimages
-/app/etc/modules/Redkiwi_Rkimages.xml /app/etc/modules/Redkiwi_Rkimages.xml
-/media/cache /media/cache
+app/code/community/Redkiwi/Rkimages                        app/code/community/Redkiwi/Rkimages
+app/design/adminhtml/default/default/layout/rkimages.xml   app/design/adminhtml/default/default/layout/rkimages.xml
+app/design/adminhtml/default/default/template/rkimages     app/design/adminhtml/default/default/template/rkimages
+app/etc/modules/Redkiwi_Rkimages.xml                       app/etc/modules/Redkiwi_Rkimages.xml
+media/cache                                                media/cache
