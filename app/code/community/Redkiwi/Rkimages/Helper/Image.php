@@ -1,6 +1,6 @@
 <?php
 
-class Redkiwi_Rkimages_Helper_image extends Mage_Catalog_Helper_Image 
+class Redkiwi_Rkimages_Helper_Image extends Mage_Catalog_Helper_Image
 {
     /**
      * Initialize Helper to work with Image
@@ -9,12 +9,11 @@ class Redkiwi_Rkimages_Helper_image extends Mage_Catalog_Helper_Image
      * @param string $cachedir
      * @return Redkiwi_Rkimages_Helper_image
      */
-    public function run($source, $cachedir=null)
+    public function run($source, $cachedir = 'image')
     {
         $this->_reset();
 		
-		$model = Mage::getModel('rkimages/image')
-					->setDestinationSubdir($cachedir);
+		$model = Mage::getModel('rkimages/image')->setDestinationSubdir($cachedir);
 		
         $this->_setModel($model);
 		
@@ -31,7 +30,6 @@ class Redkiwi_Rkimages_Helper_image extends Mage_Catalog_Helper_Image
             Mage::getStoreConfig("design/watermark/{$this->_getModel()->getDestinationSubdir()}_size")
         );
 
-        //$this->setImageFile($source);
 		$this->_getModel()->setBaseFile($source);
 		
 		$this->setProduct(Mage::getModel('catalog/product'));
